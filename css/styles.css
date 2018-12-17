@@ -931,14 +931,17 @@ img {
       background-size: cover;
       margin-bottom: 2rem; } }
 
-.main-container-encuesta {
-  min-width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
+@media screen and (min-width: 640px) {
+  .main-container-encuesta {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
 
-.container-encuesta {
-  margin-top: 2rem; }
+.encuesta {
+  width: 450px; }
+  @media screen and (min-width: 640px) {
+    .encuesta {
+      width: 640px; } }
